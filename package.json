@@ -1,0 +1,32 @@
+{
+  "name": "hierarchical-bitfield.js",
+  "version": "1.0.0",
+  "description": "Hierarchical bitfield.js",
+  "main": "lib/field.js",
+  "scripts": {
+    "test": "mocha --reporter=spec test/*-test.js && jscs lib/*.js test/*.js && jshint lib/*.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/indutny/hierarchical-bitfield.js.git"
+  },
+  "keywords": [
+    "bitfield",
+    "hierarchical",
+    "large"
+  ],
+  "author": "Fedor Indutny <fedor@indutny.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/indutny/hierarchical-bitfield.js/issues"
+  },
+  "homepage": "https://github.com/indutny/hierarchical-bitfield.js#readme",
+  "devDependencies": {
+    "jscs": "^2.3.4",
+    "jshint": "^2.8.0",
+    "mocha": "^2.3.3"
+  },
+  "dependencies": {
+    "bitfield.js": "^1.4.0"
+  }
+}
